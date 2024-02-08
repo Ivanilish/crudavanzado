@@ -31,12 +31,10 @@
                         <h4 class="card-title">Registro de compra</h4>
                     </div>
                     
-                    
+                    @livewire('purchases')
                   
                   
                 </div>
-               
-               
                 {!! Form::close() !!}
             </div>
           </div>
